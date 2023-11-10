@@ -273,6 +273,7 @@ function main(){
         fi
     done
 }
+
 if [ $(whoami) != 'root' ]
 then
     echo "[WARN] You have to be root."
